@@ -1,2 +1,2 @@
 
-![Website Preview](dashboard.png)
+![Website Preview](patientddashboard.png)
