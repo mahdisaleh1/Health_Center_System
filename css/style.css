@@ -1,0 +1,17 @@
+.buttons{
+    text-align: center;
+    margin-top: 15px;
+}
+
+.buttons .checkdoctorsbtn {
+    margin-top: 3%;
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    font-size: 2rem;
+    color: #fff;
+    background: #333;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: background 0.3s ease;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
