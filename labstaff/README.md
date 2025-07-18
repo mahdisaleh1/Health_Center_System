@@ -1,1 +1,1 @@
-
+![Website Preview](labstaffdashboard.png)
