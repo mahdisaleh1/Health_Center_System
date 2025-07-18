@@ -1,0 +1,199 @@
+body {
+    height: 100%;
+    max-height: 100%;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+}
+
+
+/*
+
+All PAGE SETTINGS DESIGN
+
+*/
+
+
+.dashboard {
+    display: flex;
+    width: 100%;
+}
+
+.sidebar {
+    width: 180px;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    height: 100vh;
+}
+
+.sidebar nav ul {
+    list-style: none;
+    padding-left: 15px;
+}
+
+.sidebar nav ul li {
+    padding: 15px 0;
+}
+
+.sidebar nav ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.sidebar nav ul li a:hover {
+    background-color: #34495e;
+}
+
+.content {
+    margin-left: 180px;
+    padding: 20px;
+    flex: 1;
+}
+
+.content header {
+    justify-content: center;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+    margin-bottom: 10px;
+}
+
+button {
+    background: #333;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #2980b9;
+}
+
+footer {
+    margin-left: 100px;
+    margin-top: 140px;
+}
+
+@media (max-width: 768px) {
+    .sidebar {
+        visibility: hidden;
+    }
+
+    .content {
+        width: 100%;
+        max-width: 100%;
+        margin-left: 0;
+    }
+
+    .cards {
+        grid-template-columns: 1fr;
+    }
+
+    footer {
+        margin-left: 0;
+        margin-top: -70px;
+    }
+}
+
+
+/*
+
+DESIGN FOR PROFILE PAGE (patientprofile.php)
+
+*/
+
+
+.profilecontent {
+    margin-left: 15%;
+    padding-left: 20px;
+    flex: 1;
+    max-width: 80%;
+}
+
+.profilecontainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.profilecontainer h3 {
+    margin-bottom: 10px;
+}
+
+.profilecontainer label {
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
+.profilecontainer input,
+.profilecontainer select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.buttons {
+    margin-top: 50px;
+    max-width: 100%;
+    margin-left: -50px;
+}
+
+.buttons button {
+    width: 30%;
+    margin-left: 150px;
+}
+
+
+/*
+
+DESIGN FOR PATIENT APPOINTMENTS PAGE (patapp.php)
+
+*/
+
+.appointmentscontainer {
+    width: 100%;
+}
+.appointmentscontainer select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.appointmentscontainer .myTable {
+    max-width: 100%;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.appointmentscontainer .myTable td, th {
+    margin-top: 15px;
+    font-size: large;
+    text-align: center;
+    justify-content: center;
+}
