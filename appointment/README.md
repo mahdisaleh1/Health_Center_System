@@ -9,7 +9,7 @@ When the user wants to take a appointment, if he already has an account he can e
 
 For the doctor appointments: the patient should choose first the specialty of doctors, then choose from the doctors list (filtered as the specialty choosen). Then he can choose the date and time of the appointment as the registered schedule of the doctor choosen; by example: Dr Mahdi Saleh comes Monday from 8:00am till 11:00am, the patient should choose between 8 and 11 at Monday. 
 
-For the Lab Test appointments: the patients should choose the test by name, then select it and choose a date and time between the time and days opening of the medical center.
+For the Lab Test appointments: the patients should choose the test by name, then select it and choose a date and time between the time and days opening of the medical center. However, the patient can choose a doctor, to see his results and give his comments about it after they been uploaded on the system.
 
 Check the images below:
 ![Website Preview](app.png)
