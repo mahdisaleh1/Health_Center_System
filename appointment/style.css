@@ -1,0 +1,160 @@
+/* --------------------------------------
+            appointment.php styles
+-----------------------------------------
+*/
+
+.choosecontainer {
+    width: 80%;
+    margin-left: 10% ;
+    padding-top: 40px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 28px;
+    text-transform: capitalize;
+}
+
+.choosecontainer .cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.choosecontainer .cards .card {
+    height: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    flex: 1;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.choosecontainer .cards .card p {
+    margin-top: 4px;
+}
+
+.choosecontainer .cards button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: block;
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .choosecontainer {
+        width: 100%;
+        margin-top: 50px;
+        margin-bottom: auto;
+        max-width: 90%;
+        margin-left: 5%;
+    }
+    .cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 50px;
+        margin-top: 25px;
+    }
+}
+
+
+
+/* ---------------------------------------------------------------
+            apptest.php styles
+------------------------------------------------------------------
+*/
+
+.testcontainer {
+    background: #ffffff;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 90%;
+    text-align: center;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+h1 {
+    color: #333;
+    font-size: 22px;
+}
+
+.test-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: left;
+}
+
+.test-form label {
+    margin-top: 15px;
+    margin-bottom: 0;
+    font-weight: bold;
+    color: #555;
+}
+
+.test-form input, select, textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.test-form textarea {
+    resize: none;
+    height: 80px;
+}
+
+.test-form input:focus, select:focus, textarea:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0px 0px 5px rgba(0, 123, 255, 0.5);
+}
+
+.testcontainer .buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.testcontainer .buttons button {
+    padding: 10px 35px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.testcontainer .buttons .cancelbtn {
+    background: #ddd;
+    color: #333;
+}
+
+.testcontainer .buttons .cancelbtn:hover {
+    background: #ddda;
+}
+
+.testcontainer .buttons .submitbtn {
+    background: #333;
+    color: white;
+}
+
+.testcontainer .buttons .submitbtn:hover {
+    background: #335;
+}
+
+.testcontainer .buttons a {
+    text-decoration: none;
+}
