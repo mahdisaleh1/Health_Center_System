@@ -1,5 +1,5 @@
 # Medical Center System
-This wesbite was my graduation project from the university. 
+This website was my graduation project from the university. 
 
 This system enables patients to register, choose doctors based on specific medical 
 categories (e.g., pediatrics, gynecology), and schedule appointments online. 
