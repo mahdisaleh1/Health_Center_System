@@ -1,2 +1,2 @@
 
-![Website Preview](AdminDashboard.png)
+![Website Preview](admindashboard.png)
