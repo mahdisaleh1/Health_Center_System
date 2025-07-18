@@ -26,6 +26,7 @@ What we do in this system?
 
 * Check more benefits in each README.md file in folders.
 
+You can check the website by clicking on this URL: https://healthcenter.ct.ws
 Check the images below:
 ![Website Preview](images/medicalcenter.png)
 ![Website Preview](images/medicalcenter2.png)
