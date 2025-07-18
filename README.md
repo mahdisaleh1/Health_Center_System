@@ -1,4 +1,4 @@
-# Health_Center_System
+# Medical Center System
 This wesbite was my graduation project from the university. 
 
 This system enables patients to register, choose doctors based on specific medical 
